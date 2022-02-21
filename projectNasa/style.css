@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+* {
+    font-family: arial;
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+}
+
+/* START: header */
+#header {
+    padding: 28px 20px;
+}
+
+#header * {
+    vertical-align: middle;
+}
+
+#logo {
+    margin-top: -6px;
+}
+
+#header svg {
+    fill: white;
+    width: 22px;
+}
+
+#header div {
+    display: inline-block;
+}
+
+#header > #bars > #nav-bar span {
+    font-size: 44px;
+    border-right: 2px solid rgb(85,85,85);
+    margin: 0px 15px 0px 11px;
+}
+
+#header > #bars > #nav-bar a {
+    font-size: 20px;
+}
+
+#header > #bars > #menu-bar {
+    display: block;
+    margin: 30px 100px -18px 0px;
+    background-color: rgb(83, 83, 83);
+    padding: 10px 14px;
+}
+
+#header > #bars > #menu-bar span {
+    font-size: 22px;
+    border-right: 1px solid rgb(136,136,136);
+    margin: 0px 15px 0px 11px;
+}
+
+#header > #bars > #menu-bar a {
+    font-size: 14px;
+}
+
+#header > #bars > #utilities {
+    margin-left: 20px;
+    margin-right: -200px;
+}
+
+#search-bar {
+    background-color: rgb(58, 58, 58);;
+    width: 140px;
+    height: 32px;
+    padding: 6px 6px 0px;
+}
+
+#search-bar input {
+    background-color: rgb(58, 58, 58);;
+    width: 77%;
+    height: 80%;
+    border: none;
+}
+/* END: header */
+
+
+/* START: main-content */
+#main-content > div > div {
+    display: inline-block;
+    text-align: left;
+}
+
+#main-content #first-row-right-top > div {
+    display: inline-block;
+}
+
+#main-content .quick-glance {
+    display: block;
+    background-color: white;
+    margin-top: -4px;
+}
+
+
+#main-content .category {
+    display: inline-block;
+    background-color: rgb(57,113,158);
+    padding: 8px;
+    margin: 0px 0px 6px;
+}
+
+#main-content .headline {
+    color: black;
+    background-color: white;
+    padding: 8px;
+    margin-top: -7px;
+}
+
+/* START: first-row */
+#main-content #first-row div {
+    vertical-align: top;
+}
+
+#main-content #first-row-left {
+    margin-right: 10px;
+}
+#main-content #first-row-left img {
+    width: 670px;
+    height: 600px;
+}
+
+#main-content #first-row-right-top img {
+    width: 340px;
+    height: 229px;
+}
+
+#main-content #first-row-right-events {
+    margin-left: 10px;
+    background-color: rgb(57,113,158);
+    width: 300px;
+    height: 314px;
+    padding: 0px 8px;
+}
+
+#main-content #first-row-right-events > * {
+    font-size: 13px;
+}
+
+#main-content #first-row-right-events #events-header > p {
+    margin: 12px 6px 0px;
+}
+
+#main-content #first-row-right-events #events-header > hr {
+    width: 287px;
+}
+
+#main-content #first-row-right-events #events-first {
+    margin-bottom: 8px;
+}
+
+#main-content #first-row-right-events #events-footer {
+    margin-top: 170px;
+}
+
+#main-content #first-row-right-events #events-footer hr {
+    margin-bottom: 2px;
+}
+
+#main-content #first-row-right-events #events-footer #events-footer-left {
+    margin-left: 10px;
+    margin-right: 26px;
+}
+
+#main-content #first-row-right-bottom img {
+    width: 670px;
+    height: 268px;
+}
+/* END: first-row */
+
+
+/* START: second-row */
+#main-content #second-row > div {
+    vertical-align: top;
+}
+
+#main-content #second-row-middle {
+    margin: 0px 10px;
+}
+
+#main-content #second-row-left img {
+    width: 330px;
+    height: 262px;
+}
+
+#main-content #second-row-middle img {
+    width: 670px;
+    height: 280px;
+}
+
+#main-content #second-row-right img {
+    width: 330px;
+    height: 298px;
+}
+/* END: second-row */
+
+
+/* START: third-row */
+#main-content #third-row > div {
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+#main-content #third-row > #third-row-right {
+    margin-right: 0px;
+}
+
+#main-content #third-row img {
+    width: 329px;
+    height: 280px;
+}
+
+#main-content #third-row-middle-left img {
+    height: 316px;
+}
+/* END: third-row */
+
+
+/* START: load-btn */
+#load-btn {
+    margin: 20px 0px 40px -1px;
+}
+
+#load-btn > a {
+    background-color: rgb(20,65,140);
+    font-size: 15px;
+    padding: 12px 623px;
+}
+/* END: load-btn */
+/* END: main-content */
+
+
+/* START: footer */
+#footer > #footer-top {
+    margin-left: -1000px;
+}
+
+#footer > #footer-top > p {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+#footer > #footer-top > img {
+    width: 80px;
+}
+
+#footer > #footer-bottom {
+    margin-right: -490px;
+    margin-bottom: 80px;
+}
+
+#footer > #footer-bottom > a {
+    font-size: 13px;
+    color: rgb(93,127,184);
+    margin: 0px 14px;
+}
+
+/* END: footer */
+

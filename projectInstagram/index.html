@@ -1,0 +1,275 @@
+<html>
+
+	<head>
+		<title>myInstagram</title>
+
+		<style>
+			* {
+				text-decoration: none;
+				font-family: arial;
+				color: black;
+				font-size: 15px;
+			}
+			body {
+				margin: 0;
+			    background-color: lightgray;
+			}
+			#main-content {
+			    margin: 26px auto 60px;
+				text-align: center;
+			}
+			#main-left {
+				display: inline-block;
+				vertical-align: middle;
+			    width: 440px;
+			    margin-left: -90px;
+			    margin-right: 20px;
+			}
+			#main-right {
+				display: inline-block;
+				vertical-align: middle;
+			    width: 350px;
+			}
+			#signup {
+			    height: 440px;
+			    background-color: white;
+			    border: 1px solid black;
+			}
+			#logo {
+				margin-top: 20px;
+			}
+			#logo > img {
+				width: 198px;
+			}
+			#encouragement-text {
+				margin: 10px 38px;
+				color: gray;
+				font-size: 17px;
+			}
+			#user-input > div {
+				width: 270px;
+				height: 36px;
+				margin: 6px auto 0;
+			    border-radius: 3px;
+			}
+			#main-right > #signup > #user-input > div > input {
+				width: 100%;
+				height: 100%;
+				padding: 6px;
+				font-size: 12px;
+				background-color: lightgray;
+			    border-radius: 3px;
+			}
+			#signup-btn {
+				width: 270px;
+				margin: 22px auto 0px;
+			}
+			#signup-btn > a {
+				font-size: 14px;
+				font-weight: bold;
+				color: white;
+				border-radius: 4px;
+				padding: 7px 108px;
+				background-color: blue;
+			}
+			#user-agreement {
+				margin: 28px 50px 0px;
+			}
+			#user-agreement * {
+				font-size: 12px;
+				color: gray;
+			}
+			#user-agreement > p > a{
+				font-weight: bold;
+			}
+			#signin {
+			    height: 60px;
+			    margin-top: 10px;
+			    background-color: white;
+			    border: 1px solid black;
+			}
+			#signin > p {
+			    margin-top: 20px;
+			}
+			#signin > p > a {
+				color: blue;
+			}
+			#download-app {
+			    height: 60px;
+			    margin-top: 10px;
+			}
+			#download-app > a > img {
+				width: 136px;
+				height: 41px;
+				margin: 0px 2px;
+			}
+			#footer {
+                width: 100%;
+                text-align: center;
+			}
+			#footer * {
+				font-size: 12px;
+				color: black;
+				margin: 0px 7px 8px;
+			}
+			#footer > #footer-bottom {
+				margin-top: 20px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div id="main-content">
+
+			<div id="main-left">
+				<img src="./assets/phones.png">
+			</div>
+
+			<div id="main-right">
+
+				<div id="signup">
+					<h1 id="logo">
+						<img src="./assets/instaLogo.png">
+					</h1>
+
+					<h2 id="encouragement-text">
+						Sign up to see photos and videos from your friends.
+					</h2>
+
+					<div id="user-input">
+						<div>
+							<input type="text" placeholder="Mobile Number or Email">
+						</div>
+						<div>
+							<input type="text" placeholder="Full Name">
+						</div>
+						<div>
+							<input type="text" placeholder="Username">
+						</div>
+						<div>
+							<input type="text" placeholder="Password">
+						</div>
+					</div>
+					
+					<div id="signup-btn">
+						<a href="#">
+							Sign up
+						</a>
+					</div>
+
+					<div id="user-agreement">
+						<p>
+							By signing up, you agree to our
+							<a href="#">Terms</a>,
+							<a href="#">Data Policy</a> and
+							<a href="#">Cookies Policy</a>.
+						</p>
+					</div>
+				</div>
+				
+				<div id="signin">
+					<p>
+						Have an account?
+						<a href="#">
+							Log in
+						</a>
+					</p>
+				</div>
+				
+				<div id="download-app">
+					<p>
+						Get the app.
+					</p>
+					<a href="#">
+						<img src="./assets/appStoreDownload.png">
+					</a>
+					<a href="#">
+						<img src="./assets/googlePlayDownload.png">
+					</a>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div id="footer">
+			<div>
+				<div>
+					<a href="#">
+						Meta
+					</a>
+					<a href="#">
+						About
+					</a>
+					<a href="#">
+						Blog
+					</a>
+					<a href="#">
+						Jobs
+					</a>
+					<a href="#">
+						Help
+					</a>
+					<a href="#">
+						API
+					</a>
+					<a href="#">
+						Privacy
+					</a>
+					<a href="#">
+						Terms
+					</a>
+					<a href="#">
+						Top Accounts
+					</a>
+					<a href="#">
+						Hashtags
+					</a>
+					<a href="#">
+						Locations
+					</a>
+					<a href="#">
+						Instagram Lite
+					</a>
+				</div>
+
+				<div>
+					<a href="#">
+						Beauty
+					</a>
+					<a href="#">
+						Dance
+					</a>
+					<a href="#">
+						Fitness
+					</a>
+					<a href="#">
+						Food & Drink
+					</a>
+					<a href="#">
+						Home & Garden
+					</a>
+					<a href="#">
+						Music
+					</a>
+					<a href="#">
+						Visual Arts
+					</a>
+				</div>
+			</div>
+
+			<div id="footer-bottom">
+				<a href="#">
+					English
+				</a>
+				<span>
+					&copy; 2022 Instagram from Meta
+				</span>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

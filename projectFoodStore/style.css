@@ -1,0 +1,535 @@
+body {
+  margin: 0;
+  font-family: Merriweather;
+  background-image: url("./assets/background/body.jpg");
+  background-repeat: no-repeat;
+  background-size: 1300px;
+  background-position-x: 160%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+* {
+  color: black;
+  text-decoration: none;
+}
+
+.btns {
+  padding: 18px 46px 15px;
+  border-radius: 30px;
+  background-color: rgb(249, 210, 47);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* START: header */
+#header {
+  margin-top: 38px;
+}
+
+#header div {
+  display: inline-block;
+  text-align: left;
+}
+
+#header-left-logo > img {
+  width: 122px;
+}
+
+#header-left-call {
+  margin-left: 20px;
+}
+
+#header-left-call > div > img {
+  width: 50px;
+  margin-bottom: -10px;
+}
+
+#header-left-call > div > p {
+  margin-bottom: 1px;
+}
+
+#header-left-call > div > a {
+  font-weight: bold;
+}
+
+#header-middle {
+  margin: 0 190px 0;
+}
+
+#header-right > a {
+  margin-left: 16px;
+  font-size: 18px;
+}
+/* END: header */
+
+/* START: row1 (offers) */
+#row1 {
+  margin-top: 26px;
+}
+
+#row1-offers > div {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
+
+#row1-offers-left {
+  margin-top: 100px;
+}
+
+#row1-offers-left > h1 {
+  font-size: 50px;
+}
+
+#row1-offers-left > #offers-price {
+  margin-top: 90px;
+}
+
+#row1-offers-left > #offers-price > span {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#row1-offers-left > #offers-price > span:first-of-type {
+  font-size: 20px;
+  margin-right: -6px;
+  font-weight: normal;
+}
+
+#row1-offers-left > #offers-price > span:last-of-type {
+  font-size: 20px;
+  margin-left: -2px;
+  font-weight: normal;
+}
+
+#row1-offers-left .btns {
+  margin-left: 30px;
+  vertical-align: middle;
+  font-weight: normal;
+}
+
+#row1-offers-right > img {
+  width: 790px;
+}
+
+#offers-counter {
+  margin-top: 140px;
+}
+
+#offers-counter > p > span:first-of-type {
+  font-size: 34px;
+  margin-right: -2px;
+}
+
+#offers-counter > p > span:last-of-type {
+  font-size: 20px;
+}
+
+#offers-counter hr {
+  display: inline-block;
+}
+
+#offers-counter > p {
+  margin-top: -16px;
+}
+
+#offers-counter hr {
+  width: 50px;
+  height: 2px;
+  background-color: rgb(238, 238, 238);
+  border: none;
+  vertical-align: middle;
+  margin-right: -5px;
+}
+
+#offers-counter #active-counter-line {
+  height: 4px;
+  background-color: rgb(249, 210, 47);
+}
+/* END: row1 (offers) */
+
+/* START: row2 (specials) */
+.red-circle {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin-left: -120px;
+  margin-top: 40px;
+  background-color: rgb(210, 7, 22);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.red-circle-price {
+  display: inline-block;
+  margin-top: 33px;
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+#row2 {
+  background-color: rgb(249, 210, 47);
+  margin-bottom: 100px;
+}
+
+#row2 > div {
+  width: 33.2%;
+}
+
+#row2 div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#row2 h2 {
+  margin-bottom: 50px;
+  margin-top: -60px;
+  text-align: left;
+}
+
+#row2-left > div:first-of-type {
+  margin-left: -120px;
+}
+
+#row2-left > div:last-of-type {
+  margin-left: 30px;
+}
+
+#row2-left > div > .btns {
+  background-color: white;
+}
+
+#row2-middle {
+  margin-left: -0.3%;
+  background-color: rgb(237, 242, 248);
+}
+
+#row2-right {
+  margin-left: -0.3%;
+}
+
+#row2-right > div > .btns {
+  background-color: white;
+}
+
+#row2-right > div:last-of-type {
+  margin-left: 30px;
+}
+/* END: row2 (specials) */
+
+/* START: row3 (why us) */
+#row3-top > h1 {
+  font-size: 50px;
+}
+
+#row3-bottom > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#row3-bottom-middle {
+  margin: 0 2%;
+}
+/* END: row3 (why us) */
+
+/* START: row4 (about us) */
+#row4 {
+  margin-top: 80px;
+  padding: 90px 150px;
+  background-image: url("./assets/background/about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 100%;
+}
+
+#row4 * {
+  vertical-align: middle;
+}
+
+#row4 > div {
+  display: inline-block;
+  text-align: left;
+  width: 610px;
+}
+
+#row4-left > h1 {
+  font-size: 46px;
+}
+
+#row4-left > p {
+  margin-top: 40px;
+  font-size: 16px;
+  color: #353c50;
+}
+
+#row4-left > .btns {
+  display: inline-block;
+  background-color: white;
+  padding: 17px 46px;
+  margin: 16px 0 50px;
+}
+
+#row4-right > div div {
+  display: inline-block;
+}
+
+#row4-right-top {
+  height: 120px;
+}
+
+.row4-right-top-columns:first-of-type {
+  width: 300px;
+}
+
+.row4-right-bottom-columns:first-of-type {
+  width: 300px;
+}
+
+#row4-right > div > div > div > h1 {
+  font-size: 50px;
+}
+
+#row4-right > div > div > div > * {
+  margin: 0;
+}
+/* END: row4 (about us) */
+
+/* START: row5 (instagram) */
+#row5 {
+  text-align: left;
+  margin-bottom: 70px;
+  font-size: 0;
+}
+
+#row5 > div {
+  display: inline-block;
+  width: 16.653%;
+}
+
+#row5 img {
+  width: 100%;
+}
+/* END: row5 (instagram) */
+
+/* START: row6 (mobile app) */
+#row6 > div > div {
+  display: inline-block;
+}
+
+#row6 > div div {
+  vertical-align: top;
+}  
+
+#row6-top {
+  margin-bottom: 70px;
+}
+
+#row6-top > h1 {
+  font-size: 48px;
+}
+
+#row6-bottom > div {
+  height: 680px;
+}
+
+#row6-bottom-left > div > div {
+  display: inline-block;
+  text-align: right;
+}
+
+#row6-bottom-left > div:first-of-type {
+  height: 400px;
+}
+
+#row6-bottom-left > div > div:last-of-type {
+  margin-left: 20px;
+}
+
+#row6-bottom-middle-bottom {
+  margin-top: 80px;
+}
+
+#row6-bottom-middle-bottom > a:first-of-type {
+  margin-right: 20px;
+}
+
+#row6-bottom-middle-bottom > a:last-of-type {
+  margin-left: 20px;
+}
+
+#row6-bottom-right > div > div {
+  display: inline-block;
+  text-align: left;
+}
+
+#row6-bottom-right > div:first-of-type {
+  height: 400px;
+}
+
+#row6-bottom-right > div > div:first-of-type {
+  margin-right: 20px;
+}
+/* END: row6 (mobile app) */
+
+/* START: row7 (clients feedback) */
+#row7 {
+  margin-top: 100px;
+  padding-top: 100px;
+  background-color: rgb(239, 244, 250);
+}
+
+#row7 > div > div {
+  display: inline-block;
+}
+
+#row7 div {
+  vertical-align: middle;
+}
+
+#row7-top {
+  margin-bottom: 20px;
+}
+
+#row7-top-left {
+  margin-right: 444px;
+}
+
+#row7-top-left h1 {
+  font-size: 50px;
+}
+
+#row7-top-right img {
+  width: 60px;
+}
+
+#row7-bottom {
+  overflow: auto;
+  padding-bottom: 100px;
+}
+
+.clients-feedback {
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px 30px;
+  margin-right: 30px;
+  text-align: left;
+}
+
+.clients-feedback:last-of-type {
+  margin-right: -700px;
+}
+
+.clients-feedback > .clients-info > div {
+  display: inline-block;
+}
+
+.clients-feedback > .clients-info > div {
+  margin-right: 18px;
+}
+
+.clients-feedback > .clients-info > div > img {
+  width: 50px;
+  border-radius: 50%;
+}
+
+.clients-feedback > .clients-info > div > h3 {
+  font-weight: bold;
+}
+
+.clients-feedback > .clients-info > div > p {
+  margin-top: -10px;
+}
+
+.clients-feedback > .clients-info > div > p > img {
+  width: 18px;
+}
+
+/* END: row7 (clients feedback) */
+
+/* START: row8 (newsletter) */
+#row8 {
+  padding: 70px 0 50px;
+  background-image: url("./assets/background/newsletter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#row8-top {
+  margin-bottom: 60px;
+}
+
+#row8-top * {
+  color: white;
+}
+
+#row8-top > h1 {
+  font-size: 50px;
+}
+
+#row8-bottom > input {
+  border-radius: 25px;
+  outline: none;
+  padding: 14px 34px;
+  border: 1px solid #666;
+  height: 20px;
+  width: 280px;
+  font-size: 14px;
+  margin-right: 3px;
+}
+/* END: row8 (newsletter) */
+
+/* START: footer */
+#footer {
+  background-color: rgb(239, 244, 250);
+  padding: 60px 0 44px;
+}
+
+#footer > div {
+  margin-bottom: 38px;
+}
+
+#footer > div:last-of-type {
+  margin-bottom: 0;
+}
+
+#footer-row1 > a {
+  font-size: 15px;
+  margin-right: 40px;
+}
+
+#footer-row1 > a:last-of-type {
+  margin-right: 0;
+}
+
+#footer-row2 > hr {
+  background-color: rgb(221, 221, 221);
+  border: none;
+  height: 1px;
+  width: 60%;
+}
+
+#footer-row3 > p {
+  font-size: 13px;
+  color: rgb(178, 181, 187);
+}
+
+#footer-row4 > a {
+  margin-right: 12px;
+}
+
+#footer-row4 > a:last-of-type {
+  margin-right: 0;
+}
+
+#footer-row4 > a > img {
+  width: 16px;
+}
+
+/* END: footer */
