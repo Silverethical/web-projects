@@ -7,10 +7,18 @@ body {
     font-size: 24px;
 }
 
+#projects {
+    margin-top: 30px;
+}
+
 #projects > a {
     display: block;
-    color: rgb(59, 131, 113);
+    width: 130px;
+    color: white;
     text-decoration: none;
-    font-size: 24px;
-    margin-top: 8px;
+    font-size: 20px;
+    margin: 8px auto 0;
+    background-color: rgb(59, 131, 113);
+    padding: 14px 10px;
+    border-radius: 8px;
 }
