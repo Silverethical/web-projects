@@ -19,7 +19,7 @@ body {
     color: #eee;
     text-decoration: none;
     font-size: 20px;
-    margin: 0 auto;
+    margin: 0 auto 4px;
     background-color: rgb(59, 131, 113);
     padding: 14px 10px;
     border-radius: 8px;
@@ -33,5 +33,4 @@ body {
 
 #about > p {
     font-size: 20px;
-    color: rgb(59, 131, 113);
 }
