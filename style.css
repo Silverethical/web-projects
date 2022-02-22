@@ -4,13 +4,19 @@ body {
 }
 
 .container {
-    max-width: 80%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
 }
 
 #projects {
     margin-bottom: 50px;
+}
+
+#projects > p {
+    font-size: 22px;
+    color: rgb(59, 131, 113);
+    margin-bottom: 10px;
 }
 
 #projects > a {
@@ -26,12 +32,11 @@ body {
     border-radius: 8px;
 }
 
-#projects > p {
-    font-size: 24px;
-    color: rgb(59, 131, 113);
-    margin-bottom: 10px;
+#about {
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 #about > p {
-    font-size: 20px;
+    font-size: 17px;
 }
