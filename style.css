@@ -4,8 +4,9 @@ body {
 }
 
 .container {
-    max-width: 60%;
+    max-width: 80%;
     margin: 0 auto;
+    text-align: center;
 }
 
 #projects {
