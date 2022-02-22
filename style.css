@@ -1,24 +1,37 @@
 body {
-    text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
+    background-color: #eee;
 }
 
-#about > p {
-    font-size: 24px;
+.container {
+    max-width: 60%;
+    margin: 0 auto;
 }
 
 #projects {
-    margin-top: 30px;
+    margin-bottom: 50px;
 }
 
 #projects > a {
-    display: block;
-    width: 130px;
-    color: white;
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+    color: #eee;
     text-decoration: none;
     font-size: 20px;
-    margin: 8px auto 0;
+    margin: 0 auto;
     background-color: rgb(59, 131, 113);
     padding: 14px 10px;
     border-radius: 8px;
+}
+
+#projects > p {
+    font-size: 24px;
+    color: rgb(59, 131, 113);
+    margin-bottom: 10px;
+}
+
+#about > p {
+    font-size: 20px;
+    color: rgb(59, 131, 113);
 }
