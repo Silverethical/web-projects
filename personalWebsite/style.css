@@ -1,0 +1,59 @@
+* {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    max-width: 1154px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header nav ul li {
+    display: inline-flex;
+    margin-right: 10px;
+    position: relative;
+}
+
+header nav ul li * {
+    font: 500 12px Poppins;
+}
+
+header nav ul li:hover > a {
+    color: #8490ff;
+}
+
+header nav > ul > li > a {
+    padding: 7px;
+    min-width: max-content;
+}
+
+header nav > ul > li > ul {
+    display: none;
+    position: absolute;
+    top: 163%;
+    right: -6%;
+}
+
+header nav > ul > li:hover > ul {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+header nav > ul > li > ul > li > a {
+    min-width: 140px;
+    padding: 12px 10px;
+    margin-left: 10px;
+}
+
+#row1 {
+    background-color: rgb(249,249,255);
+    height: 680px;
+}
