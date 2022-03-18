@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  background: rgb(117, 117, 117);
+}
+#state {
+  padding: 10px 0 0 10px;
+  margin: 5% auto;
+  width: 90%;
+  height: 1000px;
+  background-color: rgba(13, 195, 104, 0.486);
+}
+
+#ball {
+  width: 100px;
+  height: 100px;
+  background: rgb(221, 221, 221);
+  border-radius: 50%;
+}
+
+#ball:hover {
+  animation: ball 7s;
+  transform: translate(1900px, 900px);
+}
+
+#platform {
+  margin-top: -10px;
+}
+
+@keyframes ball {
+  0% {
+    transform: translate(0, 0);
+    animation-timing-function: ease-in;
+  }
+  7% {
+    transform: translate(100px, 0);
+    animation-timing-function: ease-in;
+  }
+  14% {
+    transform: translate(200px, 900px) scalex(1.3);
+    animation-timing-function: ease-out;
+  }
+  21% {
+    transform: translate(300px, 100px);
+    animation-timing-function: ease-in;
+  }
+  28% {
+    transform: translate(400px, 900px) scalex(1.25);
+    animation-timing-function: ease-out;
+  }
+  35% {
+    transform: translate(500px, 200px);
+    animation-timing-function: ease-in;
+  }
+  41% {
+    transform: translate(600px, 900px) scalex(1.2);
+    animation-timing-function: ease-out;
+  }
+  47% {
+    transform: translate(700px, 300px);
+    animation-timing-function: ease-in;
+  }
+  53% {
+    transform: translate(800px, 900px) scalex(1.15);
+    animation-timing-function: ease-out;
+  }
+  59% {
+    transform: translate(900px, 400px);
+    animation-timing-function: ease-in;
+  }
+  65% {
+    transform: translate(1000px, 900px) scalex(1.1);
+    animation-timing-function: ease-out;
+  }
+  71% {
+    transform: translate(1100px, 500px);
+    animation-timing-function: ease-in;
+  }
+  77% {
+    transform: translate(1200px, 900px) scalex(1.05);
+    animation-timing-function: ease-out;
+  }
+  81% {
+    transform: translate(1300px, 600px);
+    animation-timing-function: ease-in;
+  }
+  84% {
+    transform: translate(1400px, 900px);
+    animation-timing-function: ease-out;
+  }
+  86% {
+    transform: translate(1500px, 700px);
+    animation-timing-function: ease-in;
+  }
+  88% {
+    transform: translate(1600px, 900px);
+    animation-timing-function: ease-out;
+  }
+  90% {
+    transform: translate(1700px, 800px);
+    animation-timing-function: ease-in;
+  }
+  92% {
+    transform: translate(1800px, 900px);
+    animation-timing-function: ease-out;
+  }
+  94% {
+    transform: translate(1835px, 835px);
+    animation-timing-function: ease-in;
+  }
+  96% {
+    transform: translate(1870px, 900px);
+    animation-timing-function: ease-out;
+  }
+  98% {
+    transform: translate(1900px, 870px);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translate(1900px, 900px);
+    animation-timing-function: ease-out;
+  }
+}

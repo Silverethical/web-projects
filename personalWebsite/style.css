@@ -128,9 +128,28 @@ header nav > ul > li > ul > li > a {
 
 #row3 > .container {
     text-align: center;
+    padding-bottom: 160px;
 }
 
 #row3-top > h2 {
     font-size: 36px;
     font-weight: 600;
+    margin-bottom: 6px;
+}
+
+#row3-bottom {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.row3-bottom-columns-top {
+    height: 160px;
+}
+
+.row3-bottom-columns > div > a {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 200px;
 }
